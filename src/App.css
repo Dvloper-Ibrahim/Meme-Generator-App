@@ -1,0 +1,132 @@
+body {
+  font-family: "Karla", sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 70px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title img {
+  width: 45px;
+  margin: 0 10px 0 20px;
+}
+
+.title h2 {
+  font-weight: 700;
+  font-size: 21px;
+}
+
+nav > p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-right: 37px;
+  font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  nav > p {
+    margin-right: 25px;
+  }
+}
+/* ================================================== */
+main {
+  width: 480px;
+  margin: 35px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input1,
+.input2 {
+  width: 230px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #aeaeae;
+}
+
+.form button {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.meme-container {
+  position: relative;
+}
+
+#meme-image {
+  max-width: 100%;
+  margin-top: 35px;
+}
+
+.meme-text {
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: impact, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.top {
+  top: 60px;
+}
+
+.bottom {
+  bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  main {
+    width: calc(100% - 30px);
+  }
+  .form {
+    width: 100%;
+    flex-direction: column;
+  }
+  .input1,
+  .input2 {
+    width: 100%;
+    height: 50px;
+  }
+  .form button {
+    height: 48px;
+  }
+}
+/* ================================================== */
