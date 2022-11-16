@@ -12,7 +12,7 @@
 2. After that you can press the button `Get a new meme image`, then the app will get a random image and show it on the page.
 3. Then you can input some appropriate text in `Top Text`and `Bottom Text` fields to show them on the image.
 
-The app is **responsivly designed**, so enjoy checking it out whatever the device you use : [Meme Generator]()
+The app is **responsivly designed**, so enjoy checking it out whatever the device you use : [Meme Generator](https://generate-the-meme.netlify.app/)
 
 ## Available Scripts
 
