@@ -19,6 +19,13 @@ export default function () {
   }, []);
   function getMemeImage() {
     random = Math.floor(Math.random() * allMemes.length);
+    // Vanilla JS Solution
+    /*
+      memeImage = document.getElementById('meme');
+      memeImage.setAttribute('src', memesData.data.memes[random].url);
+    */
+
+    // React.useState() Solution
     let url = allMemes[random].url;
     setMeme((prevMeme) => ({
       ...prevMeme,
