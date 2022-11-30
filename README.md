@@ -4,7 +4,7 @@
 
 - `Event listeners` : for tracking the input fields and the generating button.
 - `uswState()` : to control the data, save it, and change it depending on the user interactions.
-- `useEffect()` : to handle side effectsin my app.
+- `useEffect()` : to handle side effects in my app.
 
 ## How to interact with the app
 

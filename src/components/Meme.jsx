@@ -1,6 +1,8 @@
 import React from "react";
+// import memesData from "../memesData"
 
 export default function () {
+  // let memesArray = memesData.data.memes, random;
   let random;
   let [meme, setMeme] = React.useState({
     topText: "",
